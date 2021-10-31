@@ -19,6 +19,12 @@
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
+        "Entry"
+        {
+        "MsmKey" = "8:_9FEF18C9259E44E8BB4D0025AB022231"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
     }
     "Configurations"
     {
@@ -694,7 +700,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_6507EB7C7869487C897B72023E0B1744"
             {
-            "SourcePath" = "8:..\\Sockman\\Targets\\Objects\\Release\\net5.0-windows\\apphost.exe"
+            "SourcePath" = "8:..\\Sockman\\Targets\\Objects\\Debug\\net5.0-windows\\apphost.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_2DB2EDF45ED14F06A2EF6740757DDBCA"
@@ -715,6 +721,34 @@
             "OutputConfiguration" = "8:"
             "OutputGroupCanonicalName" = "8:PublishItems"
             "OutputProjectGuid" = "8:{EA218584-6C30-4C77-ABD5-53071E9C3B32}"
+            "ShowKeyOutput" = "11:TRUE"
+                "ExcludeFilters"
+                {
+                }
+            }
+            "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_9FEF18C9259E44E8BB4D0025AB022231"
+            {
+            "SourcePath" = "8:..\\Sockman.Mock\\Targets\\Objects\\Debug\\net5.0\\apphost.exe"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_2DB2EDF45ED14F06A2EF6740757DDBCA"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            "ProjectOutputGroupRegister" = "3:1"
+            "OutputConfiguration" = "8:"
+            "OutputGroupCanonicalName" = "8:PublishItems"
+            "OutputProjectGuid" = "8:{2AB63BE6-EB3A-4BF3-B434-C5C0FD784BC0}"
             "ShowKeyOutput" = "11:TRUE"
                 "ExcludeFilters"
                 {
