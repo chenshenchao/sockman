@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Net;
 using System.Net.Sockets;
 
-namespace Sockman.Mock.IPMock
+namespace Sockman.Mock.Tcp
 {
     public class TcpMockServer
     {
@@ -18,5 +14,6 @@ namespace Sockman.Mock.IPMock
             Configuration = configuration;
             Listener = new TcpListener(IPAddress.Any, configuration.Port);
         }
+
     }
 }

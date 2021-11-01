@@ -7,9 +7,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockman", "Sockman\Sockman.
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Sockman.Setup", "Sockman.Setup\Sockman.Setup.vdproj", "{477FC009-284F-4859-BFC0-F3B32D9204E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockman.Mock", "Sockman.Mock\Sockman.Mock.csproj", "{2AB63BE6-EB3A-4BF3-B434-C5C0FD784BC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockman.Mock", "Sockman.Mock\Sockman.Mock.csproj", "{2AB63BE6-EB3A-4BF3-B434-C5C0FD784BC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockman.Mock.Web", "Sockman.Mock.Web\Sockman.Mock.Web.csproj", "{7007499C-8B94-46D6-81B8-BDB0598635CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockman.Mock.Web", "Sockman.Mock.Web\Sockman.Mock.Web.csproj", "{7007499C-8B94-46D6-81B8-BDB0598635CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockman.Mock.Tcp", "Sockman.Mock.Tcp\Sockman.Mock.Tcp.csproj", "{39736B32-4BBB-4DE1-BAA6-302AAF09C052}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockman.Mock.Udp", "Sockman.Mock.Udp\Sockman.Mock.Udp.csproj", "{A0C66C22-11A5-4AA0-95CC-DCBB9493A18B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +35,14 @@ Global
 		{7007499C-8B94-46D6-81B8-BDB0598635CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7007499C-8B94-46D6-81B8-BDB0598635CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7007499C-8B94-46D6-81B8-BDB0598635CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39736B32-4BBB-4DE1-BAA6-302AAF09C052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39736B32-4BBB-4DE1-BAA6-302AAF09C052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39736B32-4BBB-4DE1-BAA6-302AAF09C052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39736B32-4BBB-4DE1-BAA6-302AAF09C052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C66C22-11A5-4AA0-95CC-DCBB9493A18B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C66C22-11A5-4AA0-95CC-DCBB9493A18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C66C22-11A5-4AA0-95CC-DCBB9493A18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C66C22-11A5-4AA0-95CC-DCBB9493A18B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

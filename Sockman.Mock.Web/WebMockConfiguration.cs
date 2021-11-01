@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sockman.Mock.IPMock
+namespace Sockman.Mock.Web
 {
-    public class UDPMockServer
+    public class WebMockConfiguration
     {
     }
 }

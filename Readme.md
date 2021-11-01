@@ -1,3 +1,5 @@
 # [Sockman](https://github.com/chenshenchao/sockman)
 
-Yet a WebSocket Devtool.
+![logo](Logo.svg)
+
+Yet a Socket Devtool.
