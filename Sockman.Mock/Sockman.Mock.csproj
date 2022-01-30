@@ -1,10 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Library</OutputType>
-    <TargetFramework>net5.0</TargetFramework>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Authors>chenshenchao</Authors>
     <ApplicationIcon />
-    <StartupObject />
+    <StartupObject>Sockman.Mock.App</StartupObject>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -20,6 +22,16 @@
     <EmbeddedResource Remove="Targets\**" />
     <None Remove="Targets\**" />
     <Page Remove="Targets\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HandyControl" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sockman.Mock.Tcp\Sockman.Mock.Tcp.csproj" />
+    <ProjectReference Include="..\Sockman.Mock.Udp\Sockman.Mock.Udp.csproj" />
+    <ProjectReference Include="..\Sockman.Mock.Web\Sockman.Mock.Web.csproj" />
   </ItemGroup>
 
 </Project>

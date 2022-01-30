@@ -1,12 +1,7 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
-    <UseWPF>true</UseWPF>
-    <StartupObject>Sockman.App</StartupObject>
-    <Authors>chenshenchao</Authors>
-    <ApplicationIcon>Logo.ico</ApplicationIcon>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -22,11 +17,6 @@
     <EmbeddedResource Remove="Targets\**" />
     <None Remove="Targets\**" />
     <Page Remove="Targets\**" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="FreeSql" Version="2.6.100" />
-    <PackageReference Include="HandyControl" Version="3.2.0" />
   </ItemGroup>
 
 </Project>

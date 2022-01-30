@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31410.357
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockman", "Sockman\Sockman.csproj", "{EA218584-6C30-4C77-ABD5-53071E9C3B32}"
 EndProject
@@ -11,9 +11,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockman.Mock", "Sockman.Moc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockman.Mock.Web", "Sockman.Mock.Web\Sockman.Mock.Web.csproj", "{7007499C-8B94-46D6-81B8-BDB0598635CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockman.Mock.Tcp", "Sockman.Mock.Tcp\Sockman.Mock.Tcp.csproj", "{39736B32-4BBB-4DE1-BAA6-302AAF09C052}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockman.Mock.Tcp", "Sockman.Mock.Tcp\Sockman.Mock.Tcp.csproj", "{39736B32-4BBB-4DE1-BAA6-302AAF09C052}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockman.Mock.Udp", "Sockman.Mock.Udp\Sockman.Mock.Udp.csproj", "{A0C66C22-11A5-4AA0-95CC-DCBB9493A18B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockman.Mock.Udp", "Sockman.Mock.Udp\Sockman.Mock.Udp.csproj", "{A0C66C22-11A5-4AA0-95CC-DCBB9493A18B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockman.Panel", "Sockman.Panel\Sockman.Panel.csproj", "{1CAEDE71-46A8-4BB0-8B6E-C95818AC5658}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sockman.Storage", "Sockman.Storage\Sockman.Storage.csproj", "{A0307C18-014C-4FA8-9348-B9A80CD6FBD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockman.SMLang", "Sockman.SMLang\Sockman.SMLang.csproj", "{17C99F32-AE9E-493E-B698-EBB607C93009}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sockman.SMLang.Test", "Sockman.SMLang.Test\Sockman.SMLang.Test.csproj", "{06401CA2-15D5-4B5C-81DF-7E4E4725FB21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -43,6 +51,22 @@ Global
 		{A0C66C22-11A5-4AA0-95CC-DCBB9493A18B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0C66C22-11A5-4AA0-95CC-DCBB9493A18B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0C66C22-11A5-4AA0-95CC-DCBB9493A18B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CAEDE71-46A8-4BB0-8B6E-C95818AC5658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CAEDE71-46A8-4BB0-8B6E-C95818AC5658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CAEDE71-46A8-4BB0-8B6E-C95818AC5658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CAEDE71-46A8-4BB0-8B6E-C95818AC5658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0307C18-014C-4FA8-9348-B9A80CD6FBD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0307C18-014C-4FA8-9348-B9A80CD6FBD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0307C18-014C-4FA8-9348-B9A80CD6FBD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0307C18-014C-4FA8-9348-B9A80CD6FBD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C99F32-AE9E-493E-B698-EBB607C93009}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C99F32-AE9E-493E-B698-EBB607C93009}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C99F32-AE9E-493E-B698-EBB607C93009}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C99F32-AE9E-493E-B698-EBB607C93009}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06401CA2-15D5-4B5C-81DF-7E4E4725FB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06401CA2-15D5-4B5C-81DF-7E4E4725FB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06401CA2-15D5-4B5C-81DF-7E4E4725FB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06401CA2-15D5-4B5C-81DF-7E4E4725FB21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
