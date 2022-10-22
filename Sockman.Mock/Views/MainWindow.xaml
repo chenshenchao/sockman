@@ -3,33 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:hc="https://handyorg.github.io/handycontrol"
         xmlns:local="clr-namespace:Sockman.Mock.Views"
         mc:Ignorable="d"
         Title="Sockman Mock Server" Height="450" Width="800">
     <Grid>
-        <hc:SideMenu Grid.Column="0" BorderThickness="1" Width="120">
-            <hc:SideMenuItem>
-                <hc:SideMenuItem.Header>
-                    主页
-                </hc:SideMenuItem.Header>
-            </hc:SideMenuItem>
-            <hc:SideMenuItem>
-                <hc:SideMenuItem.Header>
-                    Web
-                </hc:SideMenuItem.Header>
-            </hc:SideMenuItem>
-            <hc:SideMenuItem>
-                <hc:SideMenuItem.Header>
-                    Tcp
-                </hc:SideMenuItem.Header>
-            </hc:SideMenuItem>
-            <hc:SideMenuItem>
-                <hc:SideMenuItem.Header>
-                    Udp
-                </hc:SideMenuItem.Header>
-            </hc:SideMenuItem>
-        </hc:SideMenu>
         <Grid Grid.Column="1">
             <Frame x:Name="ContentPanel" Grid.Row="2" Source="Pages/IndexPage.xaml"/>
         </Grid>
